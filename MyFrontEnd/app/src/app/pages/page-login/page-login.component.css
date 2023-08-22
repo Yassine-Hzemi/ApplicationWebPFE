@@ -1,0 +1,43 @@
+.my-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 175px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: auto;
+  }
+  
+  label {
+    text-align: auto;
+    width: 400px;
+    margin: 10px;
+  }
+  
+  .btn-primary {
+    background-color: #008B8B;
+    background: linear-gradient(to right,#008B8B, #42c5c5); 
+    color: white;
+    border-radius: 4px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    width: 420px;
+  }
+  
+  .btn-primary:active {
+    background-color: #1fcccc;
+    color: white;
+  }
+
+  h2 {
+    color:  #008B8B;
+  }
+
+  .logo {
+    width: 50px; /* adjust to the size of your logo */
+    position: absolute;
+    left: 20px;
+    top: 20px;
+  }

@@ -1,0 +1,21 @@
+<div class="container d-flex justify-content-center align-items-center">
+    <div class="card border-0">
+        <br> 
+      <h1 class="mb-4"><i class="bi bi-arrow-clockwise"></i> Modifier Compte</h1>
+      <div class="form-group">
+        <label>Nom Utilisateur</label>
+        <input type="text" name="nom" class="form-control" id="Name" placeholder="Enter Name" [(ngModel)]="user.nom" value="{{user.nom}}">
+      </div>
+      <br>
+      <div class="form-group">
+        <label>Adresse Mail</label>
+        <input type="text" name="email" class="form-control" id="email" placeholder="Enter email" [(ngModel)]="user.email" value="{{user.email}}">
+      </div>
+  
+      <br> 
+      <button type="submit" class="btn btn-primary mt-4" (click)="updateUser()">Valider</button>
+      <button type="submit" class="btn btn-primary mt-4" (click)="OnModifPass()">Modifier Mot de Passe</button>
+      <button type="submit" class="btn btn-primary mt-4" (click)="Retour()">Retour</button>
+      <br> 
+    </div>
+  </div>

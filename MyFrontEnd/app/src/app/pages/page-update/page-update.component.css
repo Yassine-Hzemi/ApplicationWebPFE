@@ -1,0 +1,26 @@
+h1 {
+    color: #008B8B ;
+  }
+
+  form {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+
+  .form-label,
+  .form-control,
+  .form-check-label {
+    width: 100%;
+    max-width: 400px;
+  }
+
+  button {
+    display: block;
+    margin: 5 auto;
+    background-color:  #008B8B;
+    border-color:  #008B8B ;
+
+  }
+select {
+    max-width: 400px;
+}

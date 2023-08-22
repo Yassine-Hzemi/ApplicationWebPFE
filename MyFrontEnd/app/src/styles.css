@@ -1,0 +1,16 @@
+body {
+    background: linear-gradient(to right, #141717, #2b9494);
+
+  }
+.background-grey {
+    background-color: #D3D3D3 !important;
+}
+.border-none{
+    border: none !important 
+}
+.min-height-200 {
+min-height: 200px ;
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

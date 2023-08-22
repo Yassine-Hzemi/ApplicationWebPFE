@@ -1,0 +1,19 @@
+.card-body {
+    font-size: 38px;
+    font-weight: bold;
+    color: #008B8B;
+    text-align: center;
+  }
+
+  h6 {
+    font-size: 20px;
+    font-weight: bold;
+    color:  #C0C0C0;
+    text-align: center;
+  }
+  h5 {
+    font-size: 25px;
+    font-weight: bold;
+    color:   #008B8B;
+    text-align: center;
+  }

@@ -1,0 +1,25 @@
+
+<h1> <i class="bi bi-card-list"></i>
+    Liste des Serveurs Autorisés à Consulter  </h1>
+    <div class="row">
+ <div class="col-sm-12 col-md-6 col-lg-4 mb-3" *ngFor="let serveur of serveurArray">
+   <div class="custom-card">
+     <div class="card-body">
+       <h5 class="card-title">{{serveur.Nom_Serveur}}</h5>
+       <p class="card-text">IP: {{serveur.IP}} </p>
+       <p class="card-text">Status: {{serveur.status}} </p>
+       <p class="card-text">Mémoire Totale: {{serveur.Memoire_totale}}GB</p>
+       <p class="card-text" [style.color]="serveur.Memoire_utilise > 50 ? 'red' : 'black'">
+         Mémoire Utilisé: {{serveur.Memoire_utilise}}%
+         <i *ngIf="serveur.Memoire_utilise > 50" class="fa fa-exclamation-circle" aria-hidden="true"></i>
+       </p>
+       <p class="card-text">Disque Totale: {{serveur.disque_totale}}GB</p>
+       <p class="card-text" [style.color]="serveur.disque_utilise > 50 ? 'red' : 'black'">
+         Mémoire Utilisé: {{serveur.disque_utilise}}%
+         <i *ngIf="serveur.disque_utilise > 50" class="fa fa-exclamation-circle" aria-hidden="true"></i>
+       </p>
+       <button type="button" class="btn btn-primary" (click)="onConsulterClick(serveur)">Consulter</button>
+     </div>
+   </div>
+ </div>
+</div>

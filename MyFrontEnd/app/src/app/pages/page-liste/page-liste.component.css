@@ -1,0 +1,24 @@
+.table-row-odd {
+  background: linear-gradient(to bottom, #74cccc, #c0e7e7);
+}
+th, td {
+  border: 1.5px solid #050000;
+  padding: 8px; /* increase padding value */
+} 
+th {
+  background: linear-gradient(to bottom, #a9adad, #e3e8e8);
+  font-size: 16px; /* increase font size */
+}
+
+td {
+  font-size: 16px; /* increase font size */
+}
+table {
+  border: 1px solid #ddd;
+  border-collapse: collapse;
+  width: 60%; /* set table width to 100% of container */
+  height: 100px; /* set table height to 500px */
+}
+h1 {
+  color: #008B8B ;
+}

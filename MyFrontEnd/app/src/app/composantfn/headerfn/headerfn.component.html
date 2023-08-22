@@ -1,0 +1,18 @@
+<div class="row justify-content-center">
+  <div class="col-sm-12 col-md-6 col-lg-4 mb-3">
+    <div class="d-flex justify-content-between" style="min-height: 20px;">
+      <div class="input-group mb-3" style="width: 800px;">
+        <input type="text" class="form-control custom-input" placeholder="Tapez le Nom du Serveur" aria-describedby="button-addon2" [(ngModel)]="Nom_Serveur">
+        <div class="input-group-append">
+          <button class="btn btn-outline-secondary custom-btn" type="button" id="button-addon2" (click)="onChercherClick()">Chercher</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="d-flex justify-content-end align-items-center" style="height: 40px;">
+      <button class="btn btn-primary mr-2" type="button" (click)="goToProfile()">Mon Profil</button>
+      <i class="bi bi-person" style="color: white;"></i>
+    </div>
+  </div>
+</div>

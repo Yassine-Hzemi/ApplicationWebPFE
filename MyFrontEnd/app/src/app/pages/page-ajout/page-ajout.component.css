@@ -1,0 +1,13 @@
+h1 {
+    color: #008B8B ;
+  }
+
+
+  button {
+    display: block;
+    margin: 5 auto;
+    background: linear-gradient(to right,#008B8B, #42c5c5); 
+    border-color:  #008B8B ;
+    width: 30%;
+
+  }

@@ -1,0 +1,44 @@
+<div class="container mt-4">
+  <h1> <i class="bi bi-person-lines-fill"></i> Liste des Utilisateurs</h1>
+  <br> 
+  <br> 
+  <table class="table table-bordered">   
+    <thead>
+      <tr>    
+        <th scope="col">Nom</th>
+        <th scope="col">Email</th>
+        <th scope="col">Password</th>
+        <th scope="col">Rôle</th>
+        <th scope="col">Privilèges</th>
+        <th scope="col">Status</th>
+        <th scope="col">Actions</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let Users of UsersArray">
+        <td>{{Users.nom}}</td>
+        <td>{{Users.email}}</td>
+        <td>{{Users.password}}</td>        
+        <td>{{Users.role}}</td>
+        <td>{{Users.Privilege}}</td>
+        <td>{{Users.status}}</td>
+        <td>
+          <div class="btn-group" role="group">
+
+            <button type="button" class="btn btn-mod"  style="margin-right: 5px;" (click)="OnModifU(Users.id)">Modifier</button>
+    
+            <button type="button" class="btn btn-supp" (click)="delete(Users.id)" style="margin-right: 5px;">Supprimer</button>
+            
+            <button type="button" class="btn btn-ac"  style="margin-right: 5px;" (click)="activate(Users.id)">Activer</button>
+            <button type="button" class="btn btn-des"  (click)="deactivate(Users.id)">Desactiver</button>
+            
+          </div>
+        </td>
+      </tr>       
+    </tbody>
+  </table>
+
+  <br>
+  <br> 
+  <br> 
+</div>

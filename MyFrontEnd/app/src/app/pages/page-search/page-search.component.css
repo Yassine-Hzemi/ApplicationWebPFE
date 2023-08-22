@@ -1,0 +1,18 @@
+h1 {
+    color: #008B8B ;
+  }
+  .form-control {
+    height: 40px;
+}
+
+.btn-outline-secondary {
+    color: #fff;
+    background-color: #008B8B;
+    border-color: #6c757d;
+}
+
+.btn-outline-secondary:hover {
+    color: #fff;
+    background-color: #29cccc;
+    border-color: #008B8B;
+}

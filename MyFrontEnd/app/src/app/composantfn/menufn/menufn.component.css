@@ -1,0 +1,22 @@
+.list-group-item a {
+    text-decoration: none;
+    color: #fbfbfb; 
+  }
+
+  .menu-title {
+    color: #20d8d8;
+  }
+  
+  .sousMenu-title {
+    color: #0b0303;
+  }
+
+  .card {
+    background: linear-gradient(to right, #161a1a, #365454);
+    border-color: rgb(121, 117, 117) ; 
+  }
+.list-group-item {
+  background: linear-gradient(to right, #161a1a, #365454);
+  border-color: rgb(238, 234, 228);
+  
+}

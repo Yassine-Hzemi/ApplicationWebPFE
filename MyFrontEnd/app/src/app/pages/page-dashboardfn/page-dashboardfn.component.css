@@ -1,0 +1,28 @@
+.main-container {
+    margin: 0 50px;
+    padding-top: 1px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .min-height-600 {
+      min-height: 600px ;
+  }
+  .no-flex-wrap {
+      flex-wrap: inherit !important;  
+  }
+  h4 {
+      color: white;
+      text-align: center;
+    }
+  
+    .custom-card {
+      background: linear-gradient(to right, #1d2222, #3a5a5a);
+    }
+    .navbar {
+      background: linear-gradient(to right, #1d2222, #42c5c5);
+    }
+  
+    .footer {
+      background: linear-gradient(to right, #1fa1a1, #45d5d5);
+    }
+    

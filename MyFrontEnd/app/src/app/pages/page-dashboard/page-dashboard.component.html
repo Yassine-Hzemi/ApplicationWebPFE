@@ -1,0 +1,29 @@
+<div class="main-container">
+    <div class="row min-height-600 no-flex-wrap">
+      <div class="col-md-2 mr-2 custom-card">
+        <div class="col">
+          <div>
+            <br> 
+            <h4>Menu</h4>
+            <br>
+          </div>
+          <div>
+            <app-menu></app-menu>
+          </div>
+        </div>
+      </div>
+      <div class="card col-md-10 pl-0 pr-0 background-grey border-non">
+        <div class="col pl-0 pr-0 d-flex flex-column justify-content-between">
+          <div class="card p-3 mb-6 navbar">
+            <app-header></app-header>
+          </div>
+          <div class="card flex-grow-1">
+            <router-outlet></router-outlet>
+          </div>
+          <div class="card footer" >
+            <app-footer></app-footer>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>

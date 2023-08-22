@@ -1,0 +1,49 @@
+.custom-card {
+    width: 18rem;
+    background-color: #f7f3f3;
+    border: 2px solid #008B8B;
+    margin-bottom: 20px;
+  }
+
+  h5{
+    color : #008B8B ; 
+  }
+
+  .btn-primary {
+    background-color: #008B8B;
+  }
+
+  .custom-card {
+    background-color: #fff;
+    border-radius: 0.25rem;
+    box-shadow: 0px 0px 10px rgba(4, 89, 90, 0.4);
+    margin: 0.5rem;
+    padding: 2rem;
+    transition: box-shadow 0.3s ease-in-out;
+  }
+  
+  .custom-card:hover {
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.4);
+  }
+  
+  .custom-card .card-body {
+    padding: 1rem;
+  }
+  
+  .custom-card .card-title {
+    font-size: 1.25rem;
+    font-weight: 500;
+  }
+  
+  .custom-card .card-text {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  
+  .custom-card button {
+    margin-top: 1rem;
+  }
+  
+  
+  
+  

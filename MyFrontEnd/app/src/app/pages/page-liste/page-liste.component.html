@@ -1,0 +1,58 @@
+<div class="container mt-4">
+  <h1><i class="bi bi-card-list"></i> Liste des Serveurs</h1>
+  <br>
+  <div class="table-responsive">
+    <table class="table">
+      <thead style="text-align: center;">
+        <tr>
+          <th colspan="4">Serveur</th>
+          <th colspan="5">Storage Area</th>
+          <th colspan="2">Disque</th>
+          <th colspan="2">Mémoire</th>    
+        </tr>
+        <tr>
+          <th class="th1">Nom</th>
+          <th>IP</th>
+          <th>Créateur</th>
+          <th>Status</th>
+          <th>Nom</th>
+          <th>Taille maximale</th>
+          <th>Taille Utilisée</th>
+          <th>Nombre de Fichiers</th>
+          <th>Nombre de Fichiers Maximale</th>
+          <th>Totale</th>
+          <th>Utilisé</th>
+          <th>Totale</th>
+          <th>Utilisé</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let serveur of serveurArray; let i = index" [class.table-row-odd]="i%2==1">
+          <td>{{serveur.Nom_Serveur}}</td>
+          <td>{{serveur.IP}}</td>
+          <td>{{serveur.Createur}}</td>
+          <td>{{serveur.status}}</td>
+          <td>{{serveur.Zone_de_Stockage}}</td>
+          <td>{{serveur.Taille_Max_Zone}}Kbytes</td>
+          <td>{{serveur.Taille_utilise}}Kbytes</td>
+          <td>{{serveur.Nombre_Fichiers}}</td>
+          <td>{{serveur.Max_Files}}</td>
+          <td>{{serveur.Memoire_totale}}GB</td>
+          <td>{{serveur.Memoire_utilise}}%</td>
+          <td>{{serveur.disque_totale}}GB</td>
+          <td>{{serveur.disque_utilise}}%</td>
+        </tr>
+      </tbody>
+    </table>
+    <br> 
+    <br> 
+    <br> 
+    <br> 
+  </div>
+</div>
+
+
+
+
+
+      

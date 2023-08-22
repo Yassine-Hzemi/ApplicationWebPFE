@@ -1,0 +1,31 @@
+<br>
+<img src="./assets/logobw.png">
+<div class="my-container">
+  <div class="card justify-content-center">
+    <div class="card-header text-center">
+      <h2>Se Connecter</h2>
+    </div>
+    <form (ngSubmit)="onSubmit()">
+      <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Adresse Mail </label>
+        <div class="input-group">
+          <span class="input-group-text"><i class="fa-solid fa-at"></i></span>
+          <input type="email" class="form-control" name="email" placeholder="Adresse Mail" [(ngModel)]="email" >
+        </div>
+      </div>
+      <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label">Mot de Passe</label>
+        <div class="input-group">
+          <span class="input-group-text"><i class="fa-solid fa-lock"></i></span>
+          <input type="password" class="form-control" name="password" placeholder="Mot de Passe"  [(ngModel)]="password">
+        </div>
+      </div>
+      <div class="mb-3">
+        <button type="submit" class="btn btn-primary" >
+          <i class="fa-solid fa-right-to-bracket"></i>&nbsp; Connexion
+        </button>
+        <p *ngIf="error" style="color: red;">{{ error }}</p>
+      </div>
+    </form>
+  </div>
+</div>

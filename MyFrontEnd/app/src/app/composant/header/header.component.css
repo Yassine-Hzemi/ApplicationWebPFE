@@ -1,0 +1,38 @@
+.col-md-4 i {
+    font-size: 24px; /* adjust the value as needed */
+  }
+  
+  .col-md-4 span {
+    font-size: 18px; /* adjust the value as needed */
+  }
+
+  .bi-search, .bi-person {
+    color: white;
+  }
+  
+  .me-1 {
+    color: white;
+  }
+
+.btn-primary {
+    width: 200px; /* set the width of the button */
+    background: linear-gradient(to right,#008B8B, #42c5c5); 
+    border-color: white;
+}
+.btn-primary:active {
+    background-color: grey;
+    border-color: white;
+  }
+
+  .btn-outline-secondary {
+    color: #fff;
+    background: linear-gradient(to right,#008B8B, #42c5c5); 
+    border-color: #fcfbfb;
+}
+
+.btn-outline-secondary:hover {
+    color: #fff;
+    background-color: #29cccc;
+    border-color: #6c757d;
+}
+
